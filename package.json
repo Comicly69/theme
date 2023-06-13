@@ -1,0 +1,21 @@
+{
+  "name": "apple-theme",
+  "displayName": "apple theme",
+  "description": "A simple red theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apple theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Apple theme-color-theme.json"
+      }
+    ]
+  }
+}
